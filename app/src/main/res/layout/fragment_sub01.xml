@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="example.ti2.org.testproject.Sub01Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fragment_sub01"/>
+
+    <EditText
+        android:id="@+id/f_sub01_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input"/>
+
+    <Button
+        android:id="@+id/f_sub01_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER"/>
+
+</LinearLayout>

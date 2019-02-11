@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.ti2.org.testproject.MainActivity">
+
+    <fragment
+        android:id="@+id/a_main_fragment01"
+        android:name="example.ti2.org.testproject.Sub01Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_sub01" />
+
+    <fragment
+        android:id="@+id/a_main_fragment02"
+        android:name="example.ti2.org.testproject.Sub02Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_sub02" />
+
+    <TextView
+        android:id="@+id/change_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="activity 이동"
+        android:textSize="20dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/move_to_fragment"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="클릭시 프레그먼트 생성"/>
+
+    <fragment
+        android:id="@+id/a_main_fragment03"
+        android:name="example.ti2.org.testproject.Sub03Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_sub03" />
+
+</LinearLayout>
+
