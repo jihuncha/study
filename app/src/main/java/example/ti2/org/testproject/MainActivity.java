@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements Sub01Fragment.OnF
 
     @Override
     public void onCreate(final Bundle savedInstanceState) {
+        // 깃헙
         Log.d(TAG, "MainActivity onCreate()");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
